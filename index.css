@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  margin:2px solid black
+}
+
+.MainBody {
+   
+  padding: 10px;
+  display: flex;
+  width: 100%;
+  width: 375px;
+  flex-direction: column;
+  gap: 10px;
+  height: auto;
+  font: 500 16px/1.5 "Roboto", sans-serif;
+}
+
+.MainBody .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+}
+.header h2 {font:500 31px "Roboto", sans-serif;
+  margin-left: 12px;
+  margin-bottom: 0;
+  margin-top:0
+}
+.header .avatar {display: flex;
+
+  margin-right: 12px;
+  margin-bottom: 0;
+}
+.MainBody .carousel {
+  display: flex;
+  justify-content: center;
+  border: none;
+}
+
+.MainBody .carousel img{
+    border:none;
+}
+
+.FreelanceDesc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+  gap: 30px;
+}
+
+.MainBody .FreelanceDesc .option {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  height: auto;
+  
+}
+.selected {
+  border-radius: 20px;
+  background-color: #f0f0f1;
+}
+
+.option .Imgsvg {
+  display: flex;
+  align-items: center;
+}
+.option .prices {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 5px;
+  margin-top: 5px;
+  align-items: center;
+}
+
+.option .prices .current {
+  display: flex;
+  gap: 5px;
+  margin: 0;
+}
+
+.option .prices .current .bold {
+  margin: 0;
+}
+
+.prices .original {
+  padding-left: 4px;
+  text-align: center;
+  margin: 0;
+}
+.option .description {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.description .head {
+  margin: 2px;
+  font:500 20px "Roboto", sans-serif
+}
+.description p {
+  margin: 4px;
+}
+
+.btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 341px;
+  height: 47px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 35px;
+}
+
+.small {
+  font: 500 10px "Roboto", sans-serif;
+  color: grey;
+}
+.original {
+  text-decoration: line-through;
+}
+.green {
+  color: rgb(95, 179, 95);
+}
+.textbold {
+  color: black;
+}
